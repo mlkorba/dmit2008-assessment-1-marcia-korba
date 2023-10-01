@@ -1,0 +1,49 @@
+h1 {
+  font-size: 2.1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.25rem;
+  padding: 1rem 1rem 0;
+}
+
+main {
+  padding: 1rem 1rem;
+}
+.employee {
+  padding: 0.5rem 1rem;
+}
+.profile {
+  display: flex;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.passenger-info {
+  box-shadow: 0 0 0.125rem 0 rgb(11, 144, 227);
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.employee h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.profile img {
+  width: 172px;
+  height: 172px;
+  align-self: center;
+  border: 2px solid white;
+  box-shadow: 0 0 2px 1px rgb(103, 102, 102);
+}
+
+.bio {
+  font-size: 14px;
+  flex-grow: 1;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+}
