@@ -1,67 +1,38 @@
-# Async & Await Templating
-Data for this example is inside the ```db``` folder and the file is called ```employees.json```
+# Assignment 1 - Airline Passenger List
 
-## Template Styles
-```css
-  main{
-        padding:3rem 1rem;
-      }
-      .employee {
-        padding: 0.5rem 1rem;
-       
-      }
-      .profile {
-        display: flex;
-        align-items: center;
-        box-shadow: 0 0 2px 0 rgb(193, 191, 191);
-        border-radius: 3px;
-        padding:1rem;
-      }
+This repository serves as my project that lists airline passengers, the project's prerequisites, and includes instructions on how to run and build this project.
 
-    
+## Prerequisites
+Before you begin, ensure you have the following software installed on your system:
 
-      .employee h2 {
-        font-size: 1.5rem;
-        font-weight: 600;
-      }
-
-      .profile img {
-        width: 86px;
-        height: 86px;
-        border-radius: 50%;
-        align-self: center;
-        border:2px solid white;
-        box-shadow: 0 0 2px 1px rgb(103, 102, 102);
+- [Node.js](https://nodejs.org/) (v14.17.0 or higher recommended)
+- [npm](https://www.npmjs.com/) (v7 or higher recommended)
   
-      }
+## Getting Started
+1. Clone this repository to your local machine:
 
-      .bio {
-        font-size:14px;
-        flex-grow: 1;
-        margin-left: 1rem;
-        padding: 0.5rem 1rem;
-      }
+   ```bash
+   git clone https://github.com/mlkorba/dmit2008-assessment-1-marcia-korba.git
+   cd assignment-1
+   ```
+
+2. Install project dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+  
+## Development
+To start the development server, run the following command:
+```bash
+npm run dev
 ```
+This will start the development server, and your project will be available at `http://localhost:5173` by default. Any changes you make to your source code will automatically trigger hot module reloading.
 
-
-
-# Template Markup
-```template
-<aside class="employee">
-      <header>
-        <h2>Full Name</h2>
-      </header>
-      <div class="profile">
-        <img src="/profiles/m/emp-id-747b-19.jpg" alt="" />
-
-        <div class="bio">
-          <ul>
-            <li>job title: developer</li>
-            <li>employment: years</li>
-            <li>email</li>
-            <li>phone number</li>
-          </ul>
-        </div>
-      </div>
-    </aside>
+## Building for Production
+To build this project for production, use the following command:
+```bash
+npm run build
 ```
+This command will generate a production-ready build of this project in the `dist` directory.
+
