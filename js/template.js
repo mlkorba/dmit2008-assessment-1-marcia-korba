@@ -23,15 +23,15 @@ function passengerTemplate({
       <img src="${avatar}" alt="picture of an airplane" />
         <div class="bio">
           <ul>
-            <li>Airline: ${airline}</li>
-            <li>Flight Number: ${flightNumber}</li>
-            <li>Departure Airport: ${departureAirport}</li>
-            <li>Departure Airport Code: ${departureAirportCode}</li>
-            <li>Arrival Airport: ${arrivalAirport}</li>
-            <li>Arrival Airport Code: ${arrivalAirportCode}</li>
-            <li>Departure Date/Time: ${departureDateTime}</li>
-            <li>Arrival Date/Time: ${arrivalDateTime}</li>
-            <li>Airplane Type: ${airplaneType}</li>
+            <li><span class="heading">Airline:</span> ${airline}</li>
+            <li><span class="heading">Flight Number:</span> ${flightNumber}</li>
+            <li><span class="heading">Airplane Type:</span> ${airplaneType}</li>
+            <li><span class="heading">Departure Airport:</span> ${departureAirport}</li>
+            <li><span class="heading">Departure Airport Code:</span> ${departureAirportCode}</li>
+            <li><span class="heading">Departure Date/Time:</span> ${departureDateTime}</li>
+            <li><span class="heading">Arrival Airport:</span> ${arrivalAirport}</li>
+            <li><span class="heading">Arrival Airport Code:</span> ${arrivalAirportCode}</li>
+            <li><span class="heading">Arrival Date/Time:</span> ${arrivalDateTime}</li>
           </ul>
         </div>
       </div>

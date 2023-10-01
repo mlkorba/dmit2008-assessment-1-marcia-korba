@@ -15,11 +15,11 @@
     },
     {
         "avatar": "https://loremflickr.com/172/172/Boeing/all?random=2",
-        "firstName": "Yank",
+        "firstName": "Hank",
         "lastName": "Cass",
         "airline": "DreamWings Airlines",
         "flightNumber": 153,
-        "departureAirport": "Sarasota Bradenton International Airport",
+        "departureAirport": "Sarasota International Airport",
         "departureAirportCode": "SRQ",
         "arrivalAirport": "Cape Cod Coast Guard Air Station",
         "arrivalAirportCode": "FMH",
